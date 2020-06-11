@@ -5,7 +5,20 @@
 @import 'libs/_slick.css';
 @import 'base/variables';
 
+@import 'base/mixins';
+@import 'base/variables';
+
 body {
     font-family: 'Roboto Condensed', sans-serif;
     line-height: normal;
 }
+
+.container {
+    margin: 0 auto;
+    min-width: 1140px;
+    padding: 0;
+}
+
+@import 'block/header';
+@import 'block/promo';
+@import 'block/buttons';
