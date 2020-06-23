@@ -1,0 +1,36 @@
+.consultation {
+    min-height: 344px;
+    &__title {
+        font-size: 28px;
+        text-align: center;
+        color: #3a3a3a;
+    }
+    &__wrapper {
+        border: 1px solid rgba(0, 0, 0, 0.21);
+        position: relative;
+        height: 166px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 71px 0 81px 0;
+    }
+    &__stroke {
+        width: 122px;
+        height: 102px;
+        position: absolute;
+        top: -32%;
+        background-color: #ffffff;
+    }
+
+
+    &__button {
+        width: 200px;
+        padding: 0 10px;
+        background-color:#ffffff;
+        position: absolute;
+        bottom: -24px;
+        right: 50%;
+        transform: translateX(50%);
+
+    }
+}

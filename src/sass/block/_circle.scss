@@ -1,0 +1,18 @@
+.circle {
+    width: 102px;
+    height: 102px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ffffff;
+    border-radius: 100%;
+    margin: 0 auto 20px auto;
+    &__round {
+        width: 48px;
+        height: 51px;
+    }
+    &-consultation {
+        border: 1px solid $orange-color;
+    }
+}
+

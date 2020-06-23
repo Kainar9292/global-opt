@@ -1,0 +1,31 @@
+.title {
+    color: #2e2e2e;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 23px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+    &-bottom {
+        margin-bottom: 0;
+    }
+}
+.subtitle {
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 1.14;
+    text-align: center;
+    color: #2e2e2e;
+}
+.title_wrapper {
+    width: 880px;
+    margin: 0 auto 35px auto;
+    hr {
+        background-color: $orange-color;
+        color: $orange-color;
+        height: 1px;
+        width: 148px;
+        border: none;
+        margin: 20px auto 17px auto;
+    }
+}

@@ -1,0 +1,27 @@
+.scheme {
+    min-height: 454px;
+    padding: 51px 0 46px 0;
+    background-color: #f3f3f3;
+    &__flex {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    &__item {
+        width: 260px;
+        text-align: center;
+        margin: 0 12px 26px 12px;
+        line-height: 1.43;
+        color: #3a3a3a;
+    }
+    &__subtitle {
+        font-size: 16px;
+        font-weight: 700;
+        color: $orange-color;
+        margin: 10px 0 5px 0;
+    }
+    &__descrp {
+        font-size: 14px;
+        font-weight: 300; 
+    }
+}

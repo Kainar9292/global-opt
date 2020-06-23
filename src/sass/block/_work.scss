@@ -1,0 +1,19 @@
+.work {
+    min-height: 620px;
+    padding: 51px 0 57px 0;
+    &__block {
+        text-align: center;
+    }
+    &__subtitle {
+        font-size: 18px;
+        font-weight: 700;
+        color: $orange-color;
+        margin: 28px 0 10px 0;
+    }
+    &__descrp {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 1.57;
+        color: #3a3a3a;
+    }
+}

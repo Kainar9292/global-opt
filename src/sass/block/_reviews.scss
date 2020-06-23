@@ -1,0 +1,15 @@
+.reviews {
+    min-height: 470px;
+    padding: 51px 0 65px 0;
+    &__carousel {
+        display: flex;
+        justify-content: center;
+    }
+    &__descrp {
+        width: 300px;
+    }
+
+    div {
+         width: 500px;
+    }
+}
