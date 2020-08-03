@@ -12,6 +12,9 @@
         align-items: flex-start;
         width: 64px;
         height: 64px;
+        img {
+            width: 100%;
+        }
     }
     &__descrp {
         margin-left: 18px;

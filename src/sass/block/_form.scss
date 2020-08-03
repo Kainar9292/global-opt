@@ -1,10 +1,19 @@
-.consultation {
+.feed {
     &__form {
         margin: 68px 0 53px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &-message {
+            margin: 0;
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 18px 0 25px 0;
+        }
     }
     &-box {
         display: flex;
         justify-content: center;
+        flex-wrap: wrap;
         input {
             width: 268px;
             height: 45px;
@@ -13,29 +22,20 @@
             padding-left: 30px;
             font-size: 13px;
             font-weight: 300;
-            color: rgba(16, 16, 16, 0.7);
             margin: 0 3px;
+            outline: 0;
+        }
+        textarea {
+            width: 813px;
+            height: 71px;
+            padding: 18px 25px;
+            margin: 8px 0 17px 0;
+            border: 1px solid rgba(0, 0, 0, 0.21);
+            font-size: 13px;
+            font-weight: 300;
+            border-radius: 10px;
+            resize: none;
             outline: 0;
         }
     }
 }
-
-// .consultation__form {
-//     display: flex;
-//     flex-direction: column;
-//     align-items: center;
-//     textarea {
-//         width: 813px;
-//         height: 71px;
-//         resize: none;
-//         color: rgba(16, 16, 16, 0.7);
-//         border: 1px solid rgba(0, 0, 0, 0.21);
-//         border-radius: 10px;
-//         padding: 10px 30px;
-//         opacity: 0.7;
-//         font-size: 13px;
-//         font-weight: 300;
-//         margin: 8px 0;
-//         outline: 0;
-//     }
-// }

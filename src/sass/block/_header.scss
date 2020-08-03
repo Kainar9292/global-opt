@@ -1,12 +1,7 @@
 .header {
     display: flex;
     justify-content: space-between;
-    // align-items: center;
     padding-bottom: 9px;
-    &__logo {
-        width: 96px;
-        height: 100px;
-    }
     &__menu {
         display: flex;
         justify-content: space-between;
@@ -60,5 +55,7 @@
             color: $orange-color;
         }
     }
-
+}
+.hamburger {
+    display: none;
 }

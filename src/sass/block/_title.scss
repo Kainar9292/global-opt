@@ -19,7 +19,7 @@
 }
 .title_wrapper {
     width: 880px;
-    margin: 0 auto 35px auto;
+    margin: 0 auto 25px auto;
     hr {
         background-color: $orange-color;
         color: $orange-color;
@@ -27,5 +27,8 @@
         width: 148px;
         border: none;
         margin: 20px auto 17px auto;
+    }
+    &-bottom {
+        margin: 0 auto;
     }
 }

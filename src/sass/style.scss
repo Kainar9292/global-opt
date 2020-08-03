@@ -15,11 +15,11 @@ body {
 
 .container {
     margin: 0 auto;
-    min-width: 1140px;
-    padding: 0;
+    max-width: 1140px;
 }
 
 @import 'block/header';
+@import 'block/logo';
 @import 'block/promo';
 @import 'block/buttons';
 @import 'block/advantages';
@@ -32,3 +32,8 @@ body {
 @import 'block/form';
 @import 'block/scheme';
 @import 'block/reviews';
+@import 'block/questions';
+@import 'block/map';
+@import 'block/footer';
+@import 'block/media';
+@import 'block/pageup';

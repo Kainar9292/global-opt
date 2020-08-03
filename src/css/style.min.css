@@ -1,2 +1,133 @@
-@import url(c:\Users\Almas\Desktop\web\global opt\src\sass\libs\_animate.css);@import url(c:\Users\Almas\Desktop\web\global opt\src\sass\libs\_bootstrap-reboot.min.css);@import url(c:\Users\Almas\Desktop\web\global opt\src\sass\libs\_bootstrap-grid.min.css);@import url(c:\Users\Almas\Desktop\web\global opt\src\sass\libs\_fonts.css);@import url(c:\Users\Almas\Desktop\web\global opt\src\sass\libs\_slick.css);body{font-family:'Roboto Condensed', sans-serif;line-height:normal}.container{margin:0 auto;min-width:1140px;padding:0}.header{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;padding-bottom:9px}.header__logo{width:96px;height:100px}.header__menu{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;margin:37px 0 49px 0;list-style-type:none;font-size:15px;font-weight:400;line-height:8px}.header__item{border-right:1px dotted rgba(255,255,255,0.4);padding:7px 14px}.header__item:last-child{border-right:none}.header__link{color:#ffffff;display:inline;-webkit-transition:0.5s all;transition:0.5s all}.header__link:hover{text-decoration:none;color:#ec644b;border-bottom:1px solid currentColor;padding-bottom:5px}.header__connect{margin:25px 0 47px 0;display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-pack:distribute;justify-content:space-around}.header__contacts{margin-right:20px}.header__call{text-align:end;color:#ffffff;font-size:14px;font-weight:300;line-height:24px}.header__phone{color:#ffffff;font-size:19px;font-weight:700;line-height:24px;-webkit-transition:0.5s all;transition:0.5s all}.header__phone:hover{text-decoration:none;color:#ec644b}.promo{min-height:680px;padding:23px 0 82px 0;background:url(../../img/bg/main_bg.jpg) center center/cover no-repeat}.button{width:160px;height:45px;background-color:#ec644b;color:#ffffff;font-size:12px;font-weight:400;line-height:22px;text-transform:uppercase;border-radius:20px;border:none;-webkit-transition:0.5s all;transition:0.5s all}.button:hover{-webkit-box-shadow:3px 3px 20px #ec644b;box-shadow:3px 3px 20px #ec644b;border:none;border-radius:none}
+@import url(c:\Users\Almas\Desktop\web\global opt\src\sass\libs\_animate.css);
+@import url(c:\Users\Almas\Desktop\web\global opt\src\sass\libs\_bootstrap-reboot.min.css);
+@import url(c:\Users\Almas\Desktop\web\global opt\src\sass\libs\_bootstrap-grid.min.css);
+@import url(c:\Users\Almas\Desktop\web\global opt\src\sass\libs\_fonts.css);
+@import url(c:\Users\Almas\Desktop\web\global opt\src\sass\libs\_slick.css);
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: normal
+}
+
+.container {
+    margin: 0 auto;
+    min-width: 1140px;
+    padding: 0
+}
+
+.header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding-bottom: 9px
+}
+
+.header__logo {
+    width: 96px;
+    height: 100px
+}
+
+.header__menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin: 37px 0 49px 0;
+    list-style-type: none;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 8px
+}
+
+.header__item {
+    border-right: 1px dotted rgba(255, 255, 255, 0.4);
+    padding: 7px 14px
+}
+
+.header__item:last-child {
+    border-right: none
+}
+
+.header__link {
+    color: #ffffff;
+    display: inline;
+    -webkit-transition: 0.5s all;
+    transition: 0.5s all
+}
+
+.header__link:hover {
+    text-decoration: none;
+    color: #ec644b;
+    border-bottom: 1px solid currentColor;
+    padding-bottom: 5px
+}
+
+.header__connect {
+    margin: 25px 0 47px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around
+}
+
+.header__contacts {
+    margin-right: 20px
+}
+
+.header__call {
+    text-align: end;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px
+}
+
+.header__phone {
+    color: #ffffff;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 24px;
+    -webkit-transition: 0.5s all;
+    transition: 0.5s all
+}
+
+.header__phone:hover {
+    text-decoration: none;
+    color: #ec644b
+}
+
+.promo {
+    min-height: 680px;
+    padding: 23px 0 82px 0;
+    background: url(../../img/bg/main_bg.jpg) center center/cover no-repeat
+}
+
+.button {
+    width: 160px;
+    height: 45px;
+    background-color: #ec644b;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    border: none;
+    -webkit-transition: 0.5s all;
+    transition: 0.5s all
+}
+
+.button:hover {
+    -webkit-box-shadow: 3px 3px 20px #ec644b;
+    box-shadow: 3px 3px 20px #ec644b;
+    border: none;
+    border-radius: none
+}
+
 /*# sourceMappingURL=style.min.css.map */
