@@ -1,6 +1,6 @@
 .agent {
     min-height: 342px;
-    background: url(../../img/bg/agent_bg.jpg) center (center/cover) no-repeat;
+    background: url(../img/bg/agent_bg.jpg) center (center/cover) no-repeat;
     padding: 58px 0 75px 0;
     text-align: center;
     &__subtitle {
@@ -15,6 +15,6 @@
         color: #ffffff;
     }
     &_bg {
-        background: url(../../img/bg/managers_bg.jpg) center (center/cover) no-repeat;
+        background: url(../img/bg/managers_bg.jpg) center (center/cover) no-repeat;
     }
 }
