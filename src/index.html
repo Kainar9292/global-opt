@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-    <section class="promo" id="up">
+    <div class="promo" id="up">
         <div class="container">
             <header class="header">
                 <a href="#" class="logo">
@@ -42,7 +42,7 @@
                         <div class="header__call">Есть вопросы?</div>
                         <a href="tel:+79264230100" class="header__phone">+7 (926) 423 01 00</a>
                     </div>
-                    <button tton class="button">Перезвоните мне</button>
+                    <a href="#consultation" class="button">Перезвоните мне</a>
                 </div>
                 <div class="hamburger">
                     <span></span>
@@ -93,10 +93,10 @@
                         </div>
                     </div>
                 </div>
-                <button class="button button_main">Получить расчет</button>
+                <a href="#consultation" class="button button_main">Получить расчет</a>
             </div>
         </div>
-    </section>
+    </div>
     <section class="advantages" id="advantages">
         <div class="container">
             <h3 class="title">Преимущества работы с GlobalOpt</h3>
@@ -305,7 +305,7 @@
                             Морские перевозки грузов из Китая в Россию за 35 дней
                             с прохождением таможни
                         </div>
-                        <button class="button">Подробнее</button>
+                        <a href="#consultation-form" class="button">Подробнее</a>
                     </div>
                 </div>
                 <div class="col-8 col-sm-6 col-md-3">
@@ -323,7 +323,7 @@
                             ЖД перевозки грузов из Китая в Россию от 2 недель
                             с прохождением таможни
                         </div>
-                        <button class="button">Подробнее</button>
+                        <a href="#consultation-form" class="button">Подробнее</a>
                     </div>
                 </div>
                 <div class="col-8 col-sm-6 col-md-3">
@@ -340,7 +340,7 @@
                             Автоперевозки грузов из Китая в Россию от 2 недель
                             с прохождением таможни
                         </div>
-                        <button class="button">Подробнее</button>
+                        <a href="#consultation-form" class="button">Подробнее</a>
                     </div>
                 </div>
                 <div class="col-8 col-sm-6 col-md-3">
@@ -357,14 +357,14 @@
                             Авиаперевозки грузов из Китая в Россию до 2 недель
                             с прохождением таможни
                         </div>
-                        <button class="button">Подробнее</button>
+                        <a href="#consultation-form" class="button">Подробнее</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="consultation">
+    <section class="consultation" id="consultation">
         <div class="container">
             <h3 class="consultation__title">Заказать бесплатную консультацию</h3>
 
@@ -374,7 +374,7 @@
                         <img src="img/logo/call_logo.svg" class="circle__round" alt="call">
                     </div>
                 </div>
-                <form id="consultation" class="feed__form" action="#">
+                <form  class="feed__form" action="#">
                     <div class="feed-box">
                         <input name="name" type="text" placeholder="Ваше имя..." required>
                         <input name="phone" type="number" placeholder="Ваш номер телефона" required>
@@ -504,14 +504,14 @@
         </div>
     </section>
 
-    <section class="questions">
+    <section class="questions" id="consultation-form">
         <div class="container">
             <div class="questions__wrapper">
                 <div class="questions__title">
                     <h3>Остались вопросы?</h3>
                     напишите нам
                 </div>
-                <form class="feed__form feed__form-message" action="#" id="consultation-form">
+                <form class="feed__form feed__form-message" action="#">
                     <div class="feed-box">
                         <input name="name" type="text" placeholder="Ваше имя..." required>
                         <input name="phone" type="number" placeholder="Ваш номер телефона" required>

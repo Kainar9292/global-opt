@@ -9,10 +9,16 @@
     border-radius: 20px;
     border: none;
     transition: 0.5s all;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
     &:hover {
         box-shadow: 3px 3px 20px $orange-color;
         border: none;
         border-radius: none;
+        text-decoration: none;
+        color: #ffffff;
     }
     &:focus {
         outline: none;
